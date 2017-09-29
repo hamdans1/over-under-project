@@ -4,4 +4,6 @@ My friends and I have done our preseason Over/Under picks for the major sports l
 Well this year I decided to set up a web application using Rails that could do the work of tracking our picks, both currently and historically <br>
 <br>
 ## Using Devise for Users
-I decided to skip designing a custom User scaffolding in lieu of using the Devise gem. 
+I decided to skip designing a custom User scaffolding in lieu of using the Devise gem. Devise covers all the necessary views and models I might need with an excellent library to boot.
+<br>
+## 
