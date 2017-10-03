@@ -1,7 +1,7 @@
 class CreateTeams < ActiveRecord::Migration
   def change
     create_table :teams do |t|
-      t.array :players
+      t.string :players, array: true
       t.decimal :total
       t.boolean :over
       t.string :league
