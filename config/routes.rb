@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get 'welcome/about'
   
+  resources :teams
+  
   root 'welcome#index'
   
 end

@@ -7,6 +7,6 @@ Well this year I decided to set up a web application using Rails that could do t
 I decided to skip designing a custom User scaffolding in lieu of using the Devise gem. Devise covers all the necessary views and models I might need with an excellent library to boot.
 <br>
 ## The Team Model
-I debated how to best implement the team/player/league data structure. I decided to use the Team as the main data model, and store the players as an array (Thanks PostGres) and the league and coaches as strings.
+I debated how to best implement the team/player/league data structure. I decided to use the Team as the central data model, and store the players as an array (Thanks PostGres) and the league and coaches as strings.
 <br>
 ##
