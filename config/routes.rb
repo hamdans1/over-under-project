@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   get 'welcome/about'
   
-  resources :teams
+  resources :sheets do
+    resources :teams, except: [:index]
+  end
   
   root 'welcome#index'
   

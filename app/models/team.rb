@@ -1,4 +1,5 @@
 class Team < ActiveRecord::Base
+    belongs_to :sheet
     
     validates :players, presence: true
     validates :total, presence: true

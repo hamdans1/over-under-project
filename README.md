@@ -9,4 +9,7 @@ I decided to skip designing a custom User scaffolding in lieu of using the Devis
 ## The Team Model
 I debated how to best implement the team/player/league data structure. I decided to use the Team as the central data model, and store the players as an array (Thanks PostGres) and the league and coaches as strings.
 <br>
-##
+## The Sheet Model
+Every instance of a 'sheet' contains a user's picks and is essentially an entry into different competitions. To play, you build a sheet!
+<br>
+
